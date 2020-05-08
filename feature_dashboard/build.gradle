@@ -30,8 +30,6 @@ dependencies {
 
     implementation project(Modules.core)
     implementation project(Modules.coreUi)
-    implementation project(Modules.coreAnalytics)
-    implementation project(Modules.featureDashboardAnalytics)
 
     testImplementation Deps.junit
     androidTestImplementation Deps.junitExt

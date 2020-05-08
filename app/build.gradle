@@ -43,8 +43,6 @@ dependencies {
 
   implementation project(Modules.core)
   implementation project(Modules.coreUi)
-  implementation project(Modules.coreAnalytics)
-  implementation project(Modules.coreAnalyticsConstants)
 
   implementation project(Modules.featureNotifications)
   implementation project(Modules.featureHome)

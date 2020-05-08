@@ -13,16 +13,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/core_analytics" />
-            <option value="$PROJECT_DIR$/core_analytics_constants" />
             <option value="$PROJECT_DIR$/core_network" />
             <option value="$PROJECT_DIR$/core_ui" />
             <option value="$PROJECT_DIR$/feature_dashboard" />
-            <option value="$PROJECT_DIR$/feature_dashboard_analytics" />
             <option value="$PROJECT_DIR$/feature_home" />
-            <option value="$PROJECT_DIR$/feature_home_analytics" />
             <option value="$PROJECT_DIR$/feature_notifications" />
-            <option value="$PROJECT_DIR$/feature_notifications_analytics" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

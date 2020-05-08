@@ -19,22 +19,4 @@ class DashboardFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        dashboardViewModel.init()
-        if (savedInstanceState == null) dashboardViewModel.onFirstTimeCreated()
-        super.onViewCreated(view, savedInstanceState)
-    }
-
-    override fun onSaveInstanceState(outState: Bundle) {
-        dashboardViewModel.onSaveState()
-        super.onSaveInstanceState(outState)
-
-    }
-
-    override fun onDestroy() {
-        dashboardViewModel.onDestroy()
-        super.onDestroy()
-
-    }
 }

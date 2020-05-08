@@ -30,10 +30,13 @@ dependencies {
 
     api Deps.material
     api Deps.androidXConstraintLayout
+    api Deps.fragmentKtx
     api Deps.navigationFragment
     api Deps.navigationFragmentKtx
     api Deps.navigationUi
     api Deps.navigationUiKtx
+    api Deps.livedata
+    api Deps.viewModel
     api Deps.lifecycleExtensions
 
     testImplementation Deps.junit

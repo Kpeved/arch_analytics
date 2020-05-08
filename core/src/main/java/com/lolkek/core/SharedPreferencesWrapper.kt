@@ -14,12 +14,6 @@ class SharedPreferencesWrapper(context: Context) {
             preferences.putBoolean(KEY_NOTIFICATION_STATE, value)
         }
 
-    var firstLaunch: Boolean
-        get() = preferences.getBoolean(KEY_FIRST_LAUNCH, true)
-        set(value) {
-            preferences.putBoolean(KEY_FIRST_LAUNCH, value)
-        }
-
     companion object {
         private const val KEY_SHARED_PREFS = "shared_prefs"
         private const val KEY_FIRST_LAUNCH = "first_launch"

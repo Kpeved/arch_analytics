@@ -34,6 +34,7 @@ dependencies {
 
     api Deps.koinScope
     api Deps.koinViewModel
+    api Deps.koinFragment
     api Deps.koinCore
     api Deps.koinExt
     api Deps.timber

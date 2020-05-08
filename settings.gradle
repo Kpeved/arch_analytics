@@ -3,11 +3,6 @@ include ':app',
         ':core',
         ':core_ui',
         ':core_network',
-        ':core_analytics',
-        ':core_analytics_constants',
         ':feature_dashboard',
         ':feature_home',
-        ':feature_notifications',
-        ':feature_home_analytics',
-        ':feature_dashboard_analytics',
-        ':feature_notifications_analytics'
+        ':feature_notifications'
