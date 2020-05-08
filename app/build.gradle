@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+  compileSdkVersion Versions.compileSdk
+  buildToolsVersion Versions.buildTools
+
+  defaultConfig {
+    applicationId "com.lolkek.archanalytics"
+    minSdkVersion Versions.minSdk
+    targetSdkVersion Versions.targetSdk
+    versionCode 1
+    versionName "1.0"
+
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+
+
+  // To inline the bytecode built with JVM target 1.8 into
+
+  // bytecode that is being built with JVM target 1.6. (e.g. navArgs)
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+  implementation project(Modules.core)
+  implementation project(Modules.coreUi)
+  implementation project(Modules.coreAnalytics)
+  implementation project(Modules.coreAnalyticsConstants)
+
+  implementation project(Modules.featureNotifications)
+  implementation project(Modules.featureHome)
+  implementation project(Modules.featureDashboard)
+
+  testImplementation Deps.junit
+  androidTestImplementation Deps.junitExt
+  androidTestImplementation Deps.espresso
+}

@@ -1,0 +1,1 @@
+/Users/user/StudioProjects/AnalyticsArchitecture/buildSrc/build/classes/kotlin/main/Deps.class:/Users/user/StudioProjects/AnalyticsArchitecture/buildSrc/build/classes/kotlin/main/Modules.class:/Users/user/StudioProjects/AnalyticsArchitecture/buildSrc/build/classes/kotlin/main/Versions.class

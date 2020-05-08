@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Analytics Architecture</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="dashboard_text">Here we have a long text. Once this page is closed, an event <b>dashboard_read</b> is sent. \n \nRegolith-hosted rare earth element deposits (also known as ion-adsorption deposits) are rare-earth element (REE) ores in decomposed rocks that are formed by intense weathering of REE-rich parental rocks (e.g. granite, tuff etc.) in subtropical areas.[2] In these areas, rocks are intensely broken and decomposed.[3] Then, REEs infiltrate downward with rain water and they are concentrated along a deeper weathered layer beneath the ground surface.[4]
+
+Extraction technology of the deposits has been evolving over the last 50 years. In the past, REEs were primarily extracted in small amount as by-products in mines of other metals or granitic sands at the beach.[3] However, in recent decades, the development of the high-tech industries (e.g. aerospace engineering, telecommunication etc.) leads to high demand for REEs.[5] Hence, regolith-hosted rare earth element deposits were recognised and extraction technologies have been rapidly developed since the 1980s.[6]
+
+Currently, China dominates more than 95% of the global REE production.[7] Regolith-hosted rare earth element deposits, which contributes 35% of China\'s REE production, are mainly found in South China.[8]</string>
+
+    <string name="home_text">When Send button is clicked, <b>send_clicked</b> event is sent</string>
+    <string name="notification_toggle">Notifications</string>
+    <string name="notification_text">Once you change the switch, event <b>notifications_changed</b> is sent and user property <b>notification_state</b> is set</string>
+</resources>
