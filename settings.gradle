@@ -2,7 +2,6 @@ rootProject.name = 'Analytics Architecture'
 include ':app',
         ':core',
         ':core_ui',
-        ':core_network',
         ':feature_dashboard',
         ':feature_home',
         ':feature_notifications'
