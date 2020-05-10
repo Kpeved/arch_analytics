@@ -10,15 +10,16 @@ object AnalyticsConstants {
             const val EVENT = "session_start"
         }
 
-        object Navigated {
-            const val EVENT = "navigated"
+        object Navigated { // Each event is having it's own class
+            const val EVENT = "navigated" // this is event name.
 
-            object Params {
+            object Params { // this is an object which contains possible parameters. Note: it's not a final list of possible parameters,
+                // some parameters can be re-used from other events. The point is to keep all possible constants in this class
                 const val FROM = "from"
                 const val TO = "to"
             }
 
-            object NavigationSources {
+            object NavigationSources { // this are possible values of event parameters from and to.
                 const val HOME = "home"
                 const val DASHBOARD = "dashboard"
                 const val NOTIFICATIONS = "notifications"
