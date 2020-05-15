@@ -14,11 +14,7 @@ class HomeAnalyticsInteractor(
     }
 
     fun sendEvent() {
-        analyticsSender.sendEvent(
-            HomeEvents.SendClicked(
-                AnalyticsUtils.getTimeDurationInSecBetweenNow(startTime)
-            )
-        )
+        analyticsSender.sendEvent(HomeEvents.SendClicked(AnalyticsUtils.getTimeDurationInSecBetweenNow(startTime)))
         startTracking()
     }
 }

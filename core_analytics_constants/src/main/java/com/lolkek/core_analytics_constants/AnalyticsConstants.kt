@@ -10,7 +10,7 @@ object AnalyticsConstants {
             const val EVENT = "session_start"
         }
 
-        object Navigated { // Each event is having it's own class
+        object Navigated { // Each event is having its own class
             const val EVENT = "navigated" // this is event name.
 
             object Params { // this is an object which contains possible parameters. Note: it's not a final list of possible parameters,
@@ -48,6 +48,6 @@ object AnalyticsConstants {
     }
 
     object UserProperties{
-        const val NOTIFICATION_STATE = "notification_state"
+        const val NOTIFICATION_STATE = "notification_state" //here we have a list of user properties
     }
 }

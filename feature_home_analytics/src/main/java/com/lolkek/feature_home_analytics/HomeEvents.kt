@@ -9,7 +9,7 @@ object HomeEvents {
         timeBetweenClicks: Long
     ) : AnalyticsEvent(
         AnalyticsConstants.Events.SendClicked.EVENT,
-        mapOf(
+        mapOf( // create a map of properties where key is taken from constants, and value from
             AnalyticsConstants.Events.SendClicked.Params.TIME_BETWEEN_CLICKS to timeBetweenClicks
         )
     )
